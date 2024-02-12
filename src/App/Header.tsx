@@ -7,8 +7,8 @@ import type { Language } from "i18n";
 
 const { LanguageSelect } = createLanguageSelect<Language>({
 	"languagesPrettyPrint": {
-		"en": "English",
-		"fr": "Francais"
+		"en": "EN",
+		"fr": "FR"
 	}
 })
 
@@ -31,7 +31,7 @@ export const Header = memo(() => {
 				"href": "https://example.com",
 			},
 		]}
-		enableDarkModeSwitch={true}
+		enableDarkModeSwitch={false}
 		githubRepoUrl="https://github.com/Sera-ai/sera"
 		githubButtonSize="large"
 		showGithubStarCount={true}
