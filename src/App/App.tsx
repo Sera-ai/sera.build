@@ -23,8 +23,7 @@ export function App() {
 						switch(route.name){
 							case "home": return <Home />;
 							case "pageExample": return <PageExample />;
-							case "pageExample2": return <FourOhFour />;
-							default : return <Home />;
+							default : return <FourOhFour />;
 						}
 					})()
 				}
