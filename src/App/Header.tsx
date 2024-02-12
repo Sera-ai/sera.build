@@ -34,6 +34,7 @@ export const Header = memo(() => {
 		enableDarkModeSwitch={true}
 		githubRepoUrl="https://github.com/Sera-ai/sera"
 		githubButtonSize="large"
+		showGithubStarCount={true}
 		customItemEnd={{
 			"item": <LanguageSelect
 				language={lang}
