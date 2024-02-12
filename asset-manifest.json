@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.24f5f5eb.js",
+    "main.js": "/static/js/main.a684dd6b.js",
     "static/media/home-article.png": "/static/media/home-article.64a2f430b7a77662910e.png",
     "static/media/article-page-example.png": "/static/media/article-page-example.70d6bd57ede0ada106fa.png",
     "static/media/hero.png": "/static/media/hero.5e0a7345cf72196b81c5.png",
@@ -9,9 +9,9 @@
     "static/media/data-visualisation.png": "/static/media/data-visualisation.c147fb3b112f51f096a2.png",
     "static/media/kubernetes.png": "/static/media/kubernetes.52ea2430dfac2c2b029c.png",
     "index.html": "/index.html",
-    "main.24f5f5eb.js.map": "/static/js/main.24f5f5eb.js.map"
+    "main.a684dd6b.js.map": "/static/js/main.a684dd6b.js.map"
   },
   "entrypoints": [
-    "static/js/main.24f5f5eb.js"
+    "static/js/main.a684dd6b.js"
   ]
 }
