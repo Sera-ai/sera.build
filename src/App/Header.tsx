@@ -32,7 +32,7 @@ export const Header = memo(() => {
 			},
 		]}
 		enableDarkModeSwitch={true}
-		githubRepoUrl="https://github.com/torvalds/linux"
+		githubRepoUrl="https://github.com/Sera-ai/sera"
 		githubButtonSize="large"
 		customItemEnd={{
 			"item": <LanguageSelect

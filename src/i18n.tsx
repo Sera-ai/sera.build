@@ -34,10 +34,10 @@ export const {
 						"not found": "Page not found"
 					},
 					"Header": {
-						"headerTitle": "Title",
-						"link1label": "Example page",
-						"link2label": "Link 2",
-						"link3label": "Link 3"
+						"headerTitle": "Sera",
+						"link1label": "Use Cases",
+						"link2label": "Installation",
+						"link3label": "Documentation"
 					},
 					"Footer": {
 						"license": "License M.I.T",
