@@ -1,10 +1,10 @@
-import { memo, Text } from "react";
+import { memo } from "react";
 
 export const FourOhFour = memo(() => {
 
     return (
         <div >
-            <Text typo="page heading">{("not found")} 😥</Text>
+           {("not found")} 😥
         </div>
     );
 });
