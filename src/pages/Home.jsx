@@ -1,15 +1,5 @@
 import { memo } from "react";
-import { GlHero } from "gitlanding/GlHero/GlHero";
 import { GlArticle } from "gitlanding/GlArticle";
-import { GlCards } from "gitlanding/GlCards";
-import { GlLogoCard } from "gitlanding/GlCards/GlLogoCard";
-import { GlCodeBlock } from "gitlanding/GlCodeBlock";
-import balloonIcon from "../assets/icons/balloon.png";
-import drawioIcon from "../assets/icons/drawio.png";
-import githubIcon from "../assets/icons/github.png";
-import plusIcon from "../assets/icons/plus.png";
-import rocketIcon from "../assets/icons/rocket-chat.png";
-import tchapIcon from "../assets/icons/tchap.png";
 import networkVideo from "../assets/video/network.mp4";
 import NodeAsHandleFlow from "../components/Home.Flow.Example";
 

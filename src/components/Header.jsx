@@ -1,7 +1,6 @@
 import { memo } from "react";
 import { GlHeader } from "gitlanding/GlHeader";
 import { routes } from "../router";
-import { createLanguageSelect } from "onyxia-ui/LanguageSelect";
 import { GlLogo } from "gitlanding/utils/GlLogo";
 import logoSvg from "../assets/icons/sera-icon.png";
 

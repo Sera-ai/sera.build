@@ -1,6 +1,5 @@
 import { memo } from "react";
 import { GlFooter } from "gitlanding/GlFooter";
-import { routes } from "../router";
 
 
 export const Footer = memo(() => {
