@@ -1,7 +1,8 @@
 import { memo } from "react";
 import { GlArticle } from "gitlanding/GlArticle";
-import networkVideo from "../assets/video/network.mp4";
-import NodeAsHandleFlow from "../components/Home.Flow.Example";
+import issueImage from "../assets/img/sera-issues.png";
+import HomeFlow from "../components/Home.Flow.Example";
+import HomeFlowImage from "../components/Home.Flow.Image";
 
 export const Home = memo(() => {
 	return (
@@ -15,34 +16,27 @@ export const Home = memo(() => {
 					"type": "custom component",
 					"Component": () => {
 						return (
-							<NodeAsHandleFlow />
+							<HomeFlow />
 						);
 					},
 				}}
 			/>
 
 			<GlArticle
-				className="article2"
-				title="Empower Your Security Infrastructure with Sera"
-				body='Sera is designed to seamlessly integrate with your existing security tools, offering a powerful and user-friendly GUI for crafting advanced API policy playbooks. By automating and enhancing security operations, Sera provides a flexible platform for all your SOAR needs, making it easier than ever to manage and evolve your security strategy.'
-				buttonLabel={("articleButtonLabel")}
-				buttonLink={{
-					"href": "https://example.com",
-				}}
-
+				className="article-right"
+				title={"Optimize Your Ecosystem With Sera"}
+				body={
+					"Sera leverages your existing ecosystem to enhance security efficiency and decision-making, integrating seamlessly with automation and custom tool development for a streamlined, adaptable security posture."}
 				illustration={{
-					"type": "video",
-					"sources": [
-						{
-							"src": networkVideo,
-							"type": "video/mp4",
-						},
-					],
+					"type": "custom component",
+					"Component": () => {
+						return (
+							<HomeFlowImage img={issueImage} />
+						);
+					},
 				}}
-				hasAnimation={true}
 				illustrationPosition="left"
 			/>
-
 		</>
 	);
 });

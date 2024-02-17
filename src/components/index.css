@@ -5,8 +5,7 @@
   flex-grow: 1;
   left: 0;
   right: 0;
-  top: 0;
-  bottom: 0;
+  height: 100%;
 }
 
 body {
@@ -21,10 +20,17 @@ body {
   opacity: 0;
 }
 
-article {
+.article article{
   z-index: 1;
   max-width: 630px;
   margin-left: -70px !important;
+}
+
+.article-right article{
+  z-index: 1;
+  max-width: 630px;
+  min-width: 630px;
+  margin-left: 30% !important;
 }
 
 .container {

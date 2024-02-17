@@ -25,7 +25,7 @@ const nodeTypes = {
     turbo: TurboNode,
 };
 
-const NodeAsHandleFlow = () => {
+const HomeFlow = () => {
     const [nodes, , onNodesChange] = useNodesState(initialNodes);
     const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
 
@@ -47,7 +47,7 @@ const NodeAsHandleFlow = () => {
                     onEdgesChange={onEdgesChange}
                     onConnect={onConnect}
                     preventScrolling={false}
-                    defaultViewport={{ x: 350, y: 0, zoom: 1 }}
+                    defaultViewport={{ x: 350, y: -100, zoom: 1 }}
                     edgeTypes={edgeTypes}
                     nodeTypes={nodeTypes}
                     connectionLineComponent={FloatingConnectionLine}
@@ -59,7 +59,7 @@ const NodeAsHandleFlow = () => {
     );
 };
 
-export default NodeAsHandleFlow;
+export default HomeFlow;
 
 
 
